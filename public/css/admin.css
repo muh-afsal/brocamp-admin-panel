@@ -1,0 +1,84 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #97A3F9, #AED5FC);
+
+    /* background-image: url(../images/loginBG.jpg); */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.admin-panel {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h1 {
+    color: #000000; /* Blue text color */
+    margin-bottom: 20px;
+ 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  
+}
+
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    background-color: #f0f0f0;
+}
+
+th {
+    /* background-color: #007bff; Blue header background */
+    background-image: linear-gradient(to right, rgb(74, 95, 255), #007bff);
+
+    color: #fff; /* White text color */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray alternating rows */
+}
+
+/* .edit-icon {
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.delete-icon{
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 18px;
+} */
+.icon {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+.delete{
+    margin-left: 20px;
+}
+.edits{
+    width: 0;
+}
+.admin-heading{
+   
+    background-color: white; 
+  text-align: center;
+  font-size:xx-large;
+}

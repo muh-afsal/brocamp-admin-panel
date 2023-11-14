@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/addUser.css">
+    <title>Add User</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-black">Add User</h1>
+        <% if( typeof message !=="undefined"){%>
+            <div class="alert alert-danger text-center">
+                <%- message %> <a class="text-decoration-none text-dark close" href="/admin/addUser">x</a>
+            </div>
+            <% }%>
+           
+        <form   action="/admin/addUser" class="entyforms" method="POST">
+            <div class="form-group">
+                <label for="name" >Name</label>
+                <input class="inputs"type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phoneNo">Phone Number</label>
+                <input type="phoneNo" id="phoneNo" name="phoneNo" required>
+            </div>
+         
+            <button class="add-button" type="submit">Add User</button>
+        </form>
+        <a class="text-decoration-none goback" href="/admin">Go Back</a> 
+    </div>
+</body>
+</html>

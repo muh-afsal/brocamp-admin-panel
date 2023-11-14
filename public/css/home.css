@@ -1,0 +1,44 @@
+
+body{
+  
+   background-image: url(../images/homepageBG.jpeg.jpg);
+   /* background-color: aqua; */
+   /* background-position: center; */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: 8vh;
+}
+.heading{
+    height: 44vh;
+    width: 50vw;
+    /* background-color: aqua; */
+    margin-left: -14vh;
+    margin-top: 4vh;
+    padding-top: 87px;
+}
+#homeimg{
+    height: 51vh;
+    margin-left: 18vh;
+    margin-top: 68px;
+}
+
+
+.paragraph{
+  font-size: large;
+  margin-top: 30px;
+}
+.container{
+    display: flex;
+}
+
+#learnMorebtn{
+ 
+    margin-left: 38vh;
+    border-radius: 30px;
+    width: 116px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border: black;
+    margin-top: 35px;
+}

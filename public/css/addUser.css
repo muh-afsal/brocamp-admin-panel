@@ -1,0 +1,75 @@
+body {
+    background-color: #f0f5f9;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #8c99f9, #9cccfc);
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 23vw;
+    color: black
+}
+.entyforms{
+    margin-right: 19px;
+}
+.goback{
+    text-decoration: none;
+    color: #007bff;
+    margin-left: -19vw;
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phoneNo"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1.5px solid;
+    background-color: rgb(232, 232, 232);
+}
+.alert-danger{
+    color: red;
+
+}
+.close{
+    text-decoration: none;
+    color: black;
+}
+
+.add-button {
+    background-image: linear-gradient(to right, rgb(74, 95, 255), #007bff);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
